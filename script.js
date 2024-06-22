@@ -15,8 +15,8 @@ if (close) {
 }
 
 // single products
-var mainImg = document.getElementById("mainimg");
-var smalling = document.getElementsByClassName("small-img");
+const mainImg = document.getElementById("mainimg");
+const smalling = document.getElementsByClassName("small-img");
 
 smalling[0].onclick = function(){
     mainImg.src = smalling[0].src;
